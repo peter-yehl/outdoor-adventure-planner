@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-body-tertiary">
+
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="../index.html">Outdoor Adventure Planner</a>
+    <div class="navbar-nav ms-auto">
+      <a class="nav-link" href="../index.html" tabindex="0">Home</a>
+      <a class="nav-link" href="../content/mytrips.html" tabindex="0">My Trips</a>
+      <a class="nav-link" href="../content/camping.html" tabindex="0">Camping</a>
+      <a class="nav-link" href="../content/climbing.html" tabindex="0">Climbing</a>
+      <a class="nav-link" href="../content/trails.html" tabindex="0">Trails</a>
+      <a class="nav-link" href="../author/authors.html" tabindex="0">Authors</a>
+      <a class="nav-link" href="../faq/faq.html" tabindex="0">FAQ</a>
+      <a class="nav-link" href="../content/login.html" tabindex="0">| Login</a>
+    </div>
+  </div>
+</nav>
+</header>
+
+<!-- Login area -->
+<div class="container min-vh-100 d-flex justify-content-center align-items-center">
+  <div class="col-md-6 mx-auto card p-4 shadow">
+    <h2 class="text-center mb-4">Login</h2>
+
+    <input id="username" class="form-control mb-3" placeholder="Username">
+    <input id="password" type="password" class="form-control mb-3" placeholder="Password">
+
+    <!--establish login button-->
+    <button onclick="login()" class="btn btn-primary w-100 mb-2">
+      Login
+    </button>
+
+    <!--establish register button-->
+    <button onclick="register()" class="btn btn-outline-secondary w-100">
+      Create Account
+    </button>
+
+    <p id="message" class="text-center mt-3 text-danger"></p>
+  </div>
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>

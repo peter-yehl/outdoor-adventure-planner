@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Yosemite Creek Campground",
+    "location": "California",
+    "type": "Tent",
+    "amenities": ["Water", "Restrooms"],
+    "image": "../assets/myotherimages/yosemite_creek.jpg"
+  },
+  {
+    "name": "Glacier Basin Campground",
+    "location": "Colorado",
+    "type": "RV",
+    "amenities": ["Electric Hookups", "Restrooms"],
+    "image": "../assets/myotherimages/glacier_basin.jpg"
+  },
+  {
+    "name": "Jenny Lake Campground",
+    "location": "Wyoming",
+    "type": "Tent",
+    "amenities": ["Water", "Bear Boxes", "Restrooms"],
+    "image": "../assets/myotherimages/jenny_lake.jpg"
+  },
+  {
+    "name": "Watchman Campground",
+    "location": "Utah",
+    "type": "RV",
+    "amenities": ["Electric Hookups", "Water", "Restrooms"],
+    "image": "../assets/myotherimages/watchman.jpg"
+  },
+  {
+    "name": "Many Glacier Campground",
+    "location": "Montana",
+    "type": "Tent",
+    "amenities": ["Water", "Restrooms", "Bear Storage"],
+    "image": "../assets/myotherimages/many_glacier.jpg"
+  },
+  {
+    "name": "North Pines Campground",
+    "location": "California",
+    "type": "RV",
+    "amenities": ["Water", "Restrooms", "Picnic Tables"],
+    "image": "../assets/myotherimages/north_pines.jpg"
+  },
+  {
+    "name": "Colter Bay Campground",
+    "location": "Wyoming",
+    "type": "RV",
+    "amenities": ["Electric Hookups", "Showers", "Laundry"],
+    "image": "../assets/myotherimages/colter_bay.jpg"
+  },
+  {
+    "name": "Moraine Park Campground",
+    "location": "Colorado",
+    "type": "Tent",
+    "amenities": ["Water", "Restrooms", "Fire Rings"],
+    "image": "../assets/myotherimages/moraine_park.jpg"
+  },
+  {
+    "name": "Devils Garden Campground",
+    "location": "Utah",
+    "type": "Backcountry",
+    "amenities": ["Vault Toilets", "Scenic Views"],
+    "image": "../assets/myotherimages/devils_garden.jpg"
+  },
+  {
+    "name": "Apgar Campground",
+    "location": "Montana",
+    "type": "RV",
+    "amenities": ["Water", "Restrooms", "Camp Store"],
+    "image": "../assets/myotherimages/apgar.jpg"
+  },
+  {
+    "name": "Lost Creek Campground",
+    "location": "Colorado",
+    "type": "Backcountry",
+    "amenities": ["Primitive Sites", "Trail Access"],
+    "image": "../assets/myotherimages/lost_creek.jpeg"
+  },
+  {
+    "name": "Signal Mountain Campground",
+    "location": "Wyoming",
+    "type": "Tent",
+    "amenities": ["Water", "Restrooms", "Lake Access"],
+    "image": "../assets/myotherimages/signal_mountain.jpg"
+  },
+  {
+    "name": "Pine Grove Campground",
+    "location": "California",
+    "type": "Tent",
+    "amenities": ["Picnic Tables", "Fire Rings"],
+    "image": "../assets/myotherimages/pine_grove.jpg"
+  },
+  {
+    "name": "Goblin Valley Campground",
+    "location": "Utah",
+    "type": "RV",
+    "amenities": ["Water", "Restrooms", "Views"],
+    "image": "../assets/myotherimages/goblin_valley.jpg"
+  },
+  {
+    "name": "Two Medicine Campground",
+    "location": "Montana",
+    "type": "Tent",
+    "amenities": ["Water", "Restrooms", "Trail Access"],
+    "image": "../assets/myotherimages/two_medicine.jpg"
+  }
+]

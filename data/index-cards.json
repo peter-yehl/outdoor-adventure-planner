@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Trails",
+    "text": "Explore hiking trails, difficulty levels, and distances.",
+    "image": "assets/images/trails.jpg",
+    "link": "content/trails.html",
+    "color": "#3974af"
+  },
+  {
+    "title": "Camping",
+    "text": "Find campsites, amenities, and outdoor lodging.",
+    "image": "assets/images/camping.jpg",
+    "link": "content/camping.html",
+    "color": "#206b27"
+  },
+  {
+    "title": "Climbing",
+    "text": "Discover rock climbing locations and routes.",
+    "image": "assets/images/climbing.jpg",
+    "link": "content/climbing.html",
+    "color": "#3974af"
+  },
+  {
+    "title": "My Trips",
+    "text": "View and manage your saved adventures.",
+    "image": "assets/images/mytrips.jpg",
+    "link": "content/mytrips.html",
+    "color": "#206b27"
+  },
+  {
+    "title": "FAQ",
+    "text": "Learn how to use the Outdoor Adventure Planner.",
+    "image": "assets/images/faq.jpg",
+    "link": "faq/faq.html",
+    "color": "#3974af"
+  },
+  {
+    "title": "Authors",
+    "text": "Meet the creators of the application.",
+    "image": "assets/images/author.jpg",
+    "link": "author/authors.html",
+    "color": "#206b27"
+  }
+]

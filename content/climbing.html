@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Climbing Routes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/stylesheet1.css">
+</head>
+
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">Outdoor Adventure Planner</a>
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" href="../index.html" tabindex="0">Home</a>
+        <a class="nav-link" href="../content/mytrips.html" tabindex="0">My Trips</a>
+        <a class="nav-link" href="../content/camping.html" tabindex="0">Camping</a>
+        <a class="nav-link" href="../content/climbing.html" tabindex="0">Climbing</a>
+        <a class="nav-link" href="../content/trails.html" tabindex="0">Trails</a>
+        <a class="nav-link" href="../author/authors.html" tabindex="0">Authors</a>
+        <a class="nav-link" href="../faq/faq.html" tabindex="0">FAQ</a>
+        <a class="nav-link" href="../content/login.html" tabindex="0">| Login</a>
+      </div>
+
+    </div>
+  </nav>
+</header>
+
+<section class="hero-section text-center" style="--hero-image: url('../assets/images/climbing.jpg');">
+  <div class="container">
+    <div class="hero-box mx-auto col-lg-8 col-md-10">
+      <h1 class="fw-light">Climbing Routes</h1>
+      <p class="lead text-body-secondary">
+        Browse climbing routes by the search bar, type filter, or difficulty menu.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Establish filters for climbing routes -->
+<div class="container py-5">
+  <div class="row mb-4 justify-content-center">
+    <div class="col-md-4">
+      <input type="text" id="locationSearch" class="form-control" placeholder="Search by state...">
+    </div>
+    <div class="col-md-4">
+      <select id="difficultyFilter" class="form-select">
+        <option value="">All Difficulties</option>
+        <option value="Novice">Novice</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="Advanced">Advanced</option>
+      </select>
+    </div>
+    <div class="col-md-4">
+      <select id="typeFilter" class="form-select">
+        <option value="">All Route Types</option>
+        <option value="Boulder">Boulder</option>
+        <option value="Top Rope">Top Rope</option>
+        <option value="Lead">Lead</option>
+      </select>
+    </div>
+  </div>
+  <!-- Container for climbing route cards -->
+  <div id="climbing-container" class="row g-4"></div>
+  <!-- Pagination (how many cards on each page) controls -->
+  <div id="pagination" class="d-flex justify-content-center mt-4"></div>
+</div>
+
+<!--Add card to a trip list (modal)-->
+<div class="modal fade" id="addClimbingModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Add Climb to Trip</h5>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div id="trip-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="text-body-secondary py-5">
+  <div class="container">
+    <p class="float-end mb-1"><a href="#">Back to top</a></p>
+    <p class="mb-1">
+      MS_6 &copy;
+    </p>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="climbing.js"></script>
+</body>
+</html>

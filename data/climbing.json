@@ -1,0 +1,146 @@
+[
+  {
+    "name": "The Nose",
+    "location": "California",
+    "difficulty": "Advanced",
+    "type": "Lead",
+    "distance": "3,000 ft",
+    "image": "../assets/myotherimages/nose.jpg"
+  },
+  {
+    "name": "Nutcracker",
+    "location": "California",
+    "difficulty": "Intermediate",
+    "type": "Lead",
+    "distance": "500 ft",
+    "image": "../assets/myotherimages/nutcracker.webp"
+  },
+  {
+    "name": "Castle Rock Boulders",
+    "location": "California",
+    "difficulty": "Novice",
+    "type": "Boulder",
+    "distance": "20 ft",
+    "image": "../assets/myotherimages/castle_rock.webp"
+  },
+  {
+    "name": "Garden of the Gods Classic",
+    "location": "Colorado",
+    "difficulty": "Novice",
+    "type": "Top Rope",
+    "distance": "80 ft",
+    "image": "../assets/myotherimages/garden_of_the_gods.jpg"
+  },
+  {
+    "name": "The Bastille Crack",
+    "location": "Colorado",
+    "difficulty": "Intermediate",
+    "type": "Lead",
+    "distance": "350 ft",
+    "image": "../assets/myotherimages/bastille_crack.jpg"
+  },
+  {
+    "name": "Flatirons Direct Route",
+    "location": "Colorado",
+    "difficulty": "Advanced",
+    "type": "Lead",
+    "distance": "700 ft",
+    "image": "../assets/myotherimages/flatirons.jpeg"
+  },
+  {
+    "name": "Moab Rim Boulder Field",
+    "location": "Utah",
+    "difficulty": "Intermediate",
+    "type": "Boulder",
+    "distance": "25 ft",
+    "image": "../assets/myotherimages/moab_rim.jpg"
+  },
+  {
+    "name": "Ancient Art Spire",
+    "location": "Utah",
+    "difficulty": "Advanced",
+    "type": "Lead",
+    "distance": "300 ft",
+    "image": "../assets/myotherimages/ancient_art_spire.jpg"
+  },
+  {
+    "name": "Zion Canyon Routes",
+    "location": "Utah",
+    "difficulty": "Intermediate",
+    "type": "Top Rope",
+    "distance": "120 ft",
+    "image": "../assets/myotherimages/zion_canyon.webp"
+  },
+  {
+    "name": "Devils Tower Classic",
+    "location": "Wyoming",
+    "difficulty": "Intermediate",
+    "type": "Lead",
+    "distance": "600 ft",
+    "image": "../assets/myotherimages/devils_tower.webp"
+  },
+  {
+    "name": "Grand Teton Ridge Route",
+    "location": "Wyoming",
+    "difficulty": "Advanced",
+    "type": "Lead",
+    "distance": "1,200 ft",
+    "image": "../assets/myotherimages/grand_teton.avif"
+  },
+  {
+    "name": "Jenny Lake Boulders",
+    "location": "Wyoming",
+    "difficulty": "Novice",
+    "type": "Boulder",
+    "distance": "18 ft",
+    "image": "../assets/myotherimages/jenny_lake_climb.webp"
+  },
+  {
+    "name": "Red River Gorge Wall",
+    "location": "Kentucky",
+    "difficulty": "Intermediate",
+    "type": "Top Rope",
+    "distance": "100 ft",
+    "image": "../assets/myotherimages/red_river_gorge.jpg"
+  },
+  {
+    "name": "Motherlode Sport Route",
+    "location": "Kentucky",
+    "difficulty": "Advanced",
+    "type": "Lead",
+    "distance": "90 ft",
+    "image": "../assets/myotherimages/motherlode.jpg"
+  },
+  {
+    "name": "Pilot Mountain Climb",
+    "location": "North Carolina",
+    "difficulty": "Novice",
+    "type": "Top Rope",
+    "distance": "70 ft",
+    "image": "../assets/myotherimages/pilot_mountain.webp"
+  },
+  {
+    "name": "Looking Glass Rock",
+    "location": "North Carolina",
+    "difficulty": "Advanced",
+    "type": "Lead",
+    "distance": "800 ft",
+    "image": "../assets/myotherimages/looking_glass.jpg"
+  },
+  {
+    "name": "Smith Rock Morning Glory",
+    "location": "Oregon",
+    "difficulty": "Intermediate",
+    "type": "Lead",
+    "distance": "400 ft",
+    "image": "../assets/myotherimages/morning_glory.jpg"
+  },
+  {
+    "name": "Monkey Face Route",
+    "location": "Oregon",
+    "difficulty": "Advanced",
+    "type": "Lead",
+    "distance": "350 ft",
+    "image": "../assets/myotherimages/monkey_face.webp"
+  }
+]

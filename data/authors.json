@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Peter Yehl",
+    "contact": "pmyehl@iastate.edu",
+    "courseInfo": "COMS 3190: Construction of User Interfaces - Spring 2026 - MS 6 - Midterm Assignment",
+    "role": "Frontend Developer",
+    "bio": "Worked on UI/UX design, filtering systems, and trip management features. That's code for literally everything since I was the only one working on this project.",
+    "image": "../assets/images/author.jpg"
+  }
+]

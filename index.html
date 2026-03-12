@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Outdoor Adventure Planner</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/stylesheet1.css"/>  
+  </head>
+  <body>
+
+  <header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">Outdoor Adventure Planner</a>
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" href="../index.html" tabindex="0">Home</a>
+        <a class="nav-link" href="../content/mytrips.html" tabindex="0">My Trips</a>
+        <a class="nav-link" href="../content/camping.html" tabindex="0">Camping</a>
+        <a class="nav-link" href="../content/climbing.html" tabindex="0">Climbing</a>
+        <a class="nav-link" href="../content/trails.html" tabindex="0">Trails</a>
+        <a class="nav-link" href="../author/authors.html" tabindex="0">Authors</a>
+        <a class="nav-link" href="../faq/faq.html" tabindex="0">FAQ</a>
+        <a class="nav-link" href="../content/login.html" tabindex="0">| Login</a>
+      </div>
+    </div>
+  </nav>
+  </header>
+
+    <main>
+      <!-- Header section for the main page (no nav bar due to my desired UI design (simplistic))-->
+      <section class="hero-section text-center" style="--hero-image: url('../assets/images/trails.jpg');">
+          <div class="hero-box mx-auto col-lg-8 col-md-10">
+            <h1 class="fw-light">Outdoor Adventure Planner</h1>
+            <p class="lead text-body-secondary">
+              Plan your next hiking, climbing, or camping trip. Explore locations,
+              save trips, and organize your outdoor adventures all in one place.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Card section to display content (hiking, climbing, camping)-->
+      <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+          <div id="card-container" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4"></div>
+        </div>
+      </div>
+    </main>
+    <footer class="text-body-secondary py-5">
+      <div class="container">
+        <p class="float-end mb-1"><a href="#">Back to top</a></p>
+        <p class="mb-1">
+          MS_6 &copy;
+        </p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

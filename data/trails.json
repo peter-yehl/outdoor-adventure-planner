@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Angels Landing",
+    "location": "Utah",
+    "difficulty": "Hard",
+    "distance": "5.4 miles",
+    "image": "../assets/myotherimages/angels_landing.webp"
+  },
+  {
+    "name": "Emerald Lake Trail",
+    "location": "Colorado",
+    "difficulty": "Easy",
+    "distance": "3.2 miles",
+    "image": "../assets/myotherimages/emerald_lake.jpg"
+  },
+  {
+    "name": "Half Dome",
+    "location": "California",
+    "difficulty": "Hard",
+    "distance": "14 miles",
+    "image": "../assets/myotherimages/half_dome.webp"
+  },
+  {
+    "name": "Bear Lake Loop",
+    "location": "Colorado",
+    "difficulty": "Easy",
+    "distance": "0.8 miles",
+    "image": "../assets/myotherimages/bear_lake.jpg"
+  }
+]
